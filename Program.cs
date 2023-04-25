@@ -10,10 +10,8 @@ namespace BasicConceptPractice
     {
         static void Main(string[] args)
         {
-            ReversingString strObj =new ReversingString();
-           Console.WriteLine("Please insert the string to reverse");
-            string str = Console.ReadLine();
-            strObj.ReverseStringMethod(str); 
+            NaturalNumber natural =new NaturalNumber();
+            natural.SumOfN_NaturalNumber(); 
                        
            Console.ReadLine();
         }
