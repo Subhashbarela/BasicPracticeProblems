@@ -10,8 +10,8 @@ namespace BasicConceptPractice
     {
         static void Main(string[] args)
         {
-            EligibleForAddmition eligible=new EligibleForAddmition();
-            eligible.EligibleOrNot();
+            FindDays days =new FindDays();
+            days.WeekDays();
 
            Console.ReadLine();
         }
