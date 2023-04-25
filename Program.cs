@@ -10,10 +10,11 @@ namespace BasicConceptPractice
     {
         static void Main(string[] args)
         {
-            FlipCoinProgram toss =new FlipCoinProgram();       
-            toss.PlayTheGameOfFlipCoin(); 
-
-           
+            ReversingString strObj =new ReversingString();
+           Console.WriteLine("Please insert the string to reverse");
+            string str = Console.ReadLine();
+            strObj.ReverseStringMethod(str); 
+                       
            Console.ReadLine();
         }
     }
