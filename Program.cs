@@ -10,8 +10,8 @@ namespace BasicConceptPractice
     {
         static void Main(string[] args)
         {
-            FindDays days =new FindDays();
-            days.WeekDays();
+            ArithmaticOperation res =new ArithmaticOperation();
+            res.Mani_ArithmaticOp();
 
            Console.ReadLine();
         }
