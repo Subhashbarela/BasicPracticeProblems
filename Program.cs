@@ -10,9 +10,9 @@ namespace BasicConceptPractice
     {
         static void Main(string[] args)
         {
-            CheckEquality eql= new CheckEquality();
-            eql.CheckEqualOrNot();
-                Console.ReadLine();
+            LargestNumber larg = new LargestNumber();
+            larg.FindLargestNum();
+           Console.ReadLine();
         }
     }
 }
