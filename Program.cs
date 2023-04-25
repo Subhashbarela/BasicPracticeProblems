@@ -10,9 +10,16 @@ namespace BasicConceptPractice
     {
         static void Main(string[] args)
         {
-            CheckEquality eql= new CheckEquality();
-            eql.CheckEqualOrNot();
-                Console.ReadLine();
+            FindFactorialOfNum fact =new FindFactorialOfNum();
+           
+           /* Console.WriteLine("Pleasr insert the number to find factorial");
+            int num = int.Parse(Console.ReadLine());
+            fact.FactorialOfGivenNumber(num); */
+
+            Console.WriteLine("Pleasr insert the range to find factorial");
+            int range = int.Parse(Console.ReadLine());
+            fact.FactOfGivenRange(range);
+           Console.ReadLine();
         }
     }
 }
