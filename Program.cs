@@ -10,8 +10,8 @@ namespace BasicConceptPractice
     {
         static void Main(string[] args)
         {
-            CheckEquality eql= new CheckEquality();
-            eql.CheckEqualOrNot();
+            CheckEvenOdd evenodd= new CheckEvenOdd();
+            evenodd.CheckEvenOrOdd();
                 Console.ReadLine();
         }
     }
