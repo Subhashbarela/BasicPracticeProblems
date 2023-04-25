@@ -10,9 +10,9 @@ namespace BasicConceptPractice
     {
         static void Main(string[] args)
         {
-            ArithmaticOperation res =new ArithmaticOperation();
-            res.Mani_ArithmaticOp();
-
+            TableOfNumbers table =new TableOfNumbers();
+           // table.TableOfNum();
+            table.FindSquar();
            Console.ReadLine();
         }
     }
