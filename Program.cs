@@ -10,8 +10,9 @@ namespace BasicConceptPractice
     {
         static void Main(string[] args)
         {
-            LargestNumber larg = new LargestNumber();
-            larg.FindLargestNum();
+            EligibleForAddmition eligible=new EligibleForAddmition();
+            eligible.EligibleOrNot();
+
            Console.ReadLine();
         }
     }
