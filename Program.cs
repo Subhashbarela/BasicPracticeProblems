@@ -10,9 +10,11 @@ namespace BasicConceptPractice
     {
         static void Main(string[] args)
         {
-            TableOfNumbers table =new TableOfNumbers();
-           // table.TableOfNum();
-            table.FindSquar();
+            SumOfSquare square =new SumOfSquare();
+           
+            Console.WriteLine("Pleasr insert the number to find sum of square");
+            int num = int.Parse(Console.ReadLine());
+            square.SumOfSqr(num);
            Console.ReadLine();
         }
     }
