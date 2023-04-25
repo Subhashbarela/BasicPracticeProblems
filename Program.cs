@@ -10,15 +10,10 @@ namespace BasicConceptPractice
     {
         static void Main(string[] args)
         {
-            FindFactorialOfNum fact =new FindFactorialOfNum();
-           
-           /* Console.WriteLine("Pleasr insert the number to find factorial");
-            int num = int.Parse(Console.ReadLine());
-            fact.FactorialOfGivenNumber(num); */
+            FlipCoinProgram toss =new FlipCoinProgram();       
+            toss.PlayTheGameOfFlipCoin(); 
 
-            Console.WriteLine("Pleasr insert the range to find factorial");
-            int range = int.Parse(Console.ReadLine());
-            fact.FactOfGivenRange(range);
+           
            Console.ReadLine();
         }
     }
